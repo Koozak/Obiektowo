@@ -1,4 +1,5 @@
-public class Osoba {
+public abstract class Osoba {
+    //klasa abstrakcyjna nie można utworzyć
     private String imie;
     private String nazwisko;
     private int wiek;
