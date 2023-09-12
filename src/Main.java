@@ -13,6 +13,8 @@ public class Main {
         Uczen uczen3P = new Uczen("Emilia","pragmatyczna",21);
         System.out.println(uczen3AC);
         System.out.println(uczen3P);
+        Nauczyciel nauczycielSN = new Nauczyciel("Sebastian","Nadwiślański","Matematyka","Fizyka");
+        System.out.println(nauczycielSN);
 
     }
 }
