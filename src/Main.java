@@ -11,6 +11,7 @@ public class Main {
 
         Uczen uczen3AC = new Uczen("Emil","Smalandzki",22);
         Uczen uczen3P = new Uczen("Emilia","pragmatyczna",21);
+        uczen3AC.dyzuruj();
         System.out.println(uczen3AC);
         System.out.println(uczen3P);
         Nauczyciel nauczycielSN = new Nauczyciel("Sebastian","Nadwiślański","Matematyka","Fizyka");
@@ -21,5 +22,6 @@ public class Main {
         System.out.println(klasa3AC);
         Wychowawca wychowawca = new Wychowawca("Anna","Kowalska",klasa3AC,"tehcnika","Matematyka","fizyka");
         System.out.println(wychowawca);
+        Szkola zs10 = Szkola.getSzkola();
     }
 }
