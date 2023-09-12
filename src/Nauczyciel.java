@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public sealed class Nauczyciel extends Osoba permits Wychowawca {
+public sealed class Nauczyciel extends Osoba implements Dyzurny permits Wychowawca {
     //sealed określamy jakie klasy będą dziedziczyć słowo permits
     private ArrayList<String> przedmioty = new ArrayList<>();
 
@@ -15,5 +15,10 @@ public sealed class Nauczyciel extends Osoba permits Wychowawca {
     @Override
     public String toString() {
         return super.toString() + "Nauczyciel { " + "przedmioty=" + przedmioty + " } ";
+    }
+
+    @Override
+    public void dyzuruj() {
+        System.out.println("spacer po korytarzu");
     }
 }
