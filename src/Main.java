@@ -8,6 +8,10 @@ public class Main {
 
         Osoba osoba2 = new Osoba("Ola","Starsza",19);
         System.out.println(osoba2);
+        Uczen uczen3AC = new Uczen("Emil","Smalandzki",22);
+        Uczen uczen3P = new Uczen("Emilia","pragmatyczna",21);
+        System.out.println(uczen3AC);
+        System.out.println(uczen3P);
 
     }
 }
